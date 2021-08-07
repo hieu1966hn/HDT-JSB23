@@ -45,3 +45,14 @@
     + Width: mặc định luôn = width của nội dung thẻ
     + width/height: Thay đổi được
     + Margin/padding: thay đổi được all (trên - phải - dưới - trái)
+
+
+
+- Thẻ Table: (thẻ bảng) 
+    + cú pháp: 
+    <table>
+
+    </table>
+    + tr: Hàng
+    + th: Cột
+    + td:
