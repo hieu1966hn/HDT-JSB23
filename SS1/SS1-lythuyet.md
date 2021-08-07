@@ -13,6 +13,7 @@ HTML + CSS ==> Web chưa có tính năng =>  Web tĩnh (web chết).. (VD: bấm
     + Front-end: Giao diện mà các em có thể nhìn thấy or tương tác được.
     + Back-end (server: JS): Phần xử lý bên trong trang web (Tính năng): VD: Xây dựng tính năng bật cam:
 
+==> FullStack...
 
 Chú ý: 
     - Trình tự chạy code trong HTML như sau:  Code chạy từ trên -> dưới và chạy từ trái -> phải.
@@ -47,3 +48,4 @@ B2: Trang trí trang web
                   }
                 * red: Trước dấu chấm là "red" => tên class
                 * Khi các thẻ có thêm thuộc tinh là class ==> tất cả các "con" của thẻ đó đều được hưởng thuộc tính đó.
+        + id: 1 đối tượng (hay gọi là 1 thẻ) có thuộc tính duy nhất.
