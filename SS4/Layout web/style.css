@@ -1,0 +1,11 @@
+.container .menu div{
+    display: inline-block;
+}
+
+.container .header{
+  background-color: rgba(163, 124, 199, 0.157);
+}
+
+.container .header h1{
+  text-align: center;
+}
