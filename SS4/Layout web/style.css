@@ -1,28 +1,49 @@
-*{
+* {
   /*  cu phap ep kieu mac dinh trang web */
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-
-.container .menu{
+.container .menu {
   padding: 25px;
   background-color: rgba(142, 55, 224, 0.575);
 }
 
-.container .menu div{
-    display: inline-block;
-    padding: 0px 20px;
-    color: #fff;
+.container .menu div {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #fff;
 }
 
-.container .header{
+.container .header {
   background-color: rgba(163, 124, 199, 0.557);
   padding: 40px;
   /* tren, duoi trai, phai: deu cach khoang 40px */
 }
 
-.container .header h1{
+.container .header h1 {
+  text-align: center;
+}
+
+.container .body-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .body-content .mini-content {
+  width: 20%;
+}
+
+.body-content .content {
+  flex-grow: 1;
+  /* co dan no het ko: 1 la co */
+  padding-left: 60px;
+  padding-right: 10px;
+}
+
+.container .footer{
+  background-color: rgba(163, 124, 199, 0.788);
+  padding: 30px;
   text-align: center;
 }
