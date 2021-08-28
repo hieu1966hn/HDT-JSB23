@@ -1,0 +1,29 @@
+img {
+  width: 200px;
+  height: 110px;
+}
+
+.content {
+  display: inline-block;
+
+  background-color: aquamarine;
+  padding: 10px;
+
+  border: 1px solid black;
+}
+.content2 {
+  display: inline-block;
+
+  background-color: aqua;
+  padding: 10px;
+
+  border: 1px solid black;
+}
+.content3 {
+    display: inline-block;
+  
+    background-color: whitesmoke;
+    padding: 10px;
+  
+    border: 1px solid black;
+  }
