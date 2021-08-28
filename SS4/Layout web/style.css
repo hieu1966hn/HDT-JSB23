@@ -1,9 +1,26 @@
+*{
+  /*  cu phap ep kieu mac dinh trang web */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.container .menu{
+  padding: 25px;
+  background-color: rgba(142, 55, 224, 0.575);
+}
+
 .container .menu div{
     display: inline-block;
+    padding: 0px 20px;
+    color: #fff;
 }
 
 .container .header{
-  background-color: rgba(163, 124, 199, 0.157);
+  background-color: rgba(163, 124, 199, 0.557);
+  padding: 40px;
+  /* tren, duoi trai, phai: deu cach khoang 40px */
 }
 
 .container .header h1{
