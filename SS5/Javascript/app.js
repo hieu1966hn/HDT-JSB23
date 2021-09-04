@@ -28,19 +28,31 @@
 
 
 // Có lớp 10 đang tuyền sinh những bạn có độ tuổi >= 15 thì đạt tiêu chuẩn vào lớp 10
-let Vinh = 14;
-let GiaKhanh = 15;
-let Hai = 16;
+// let Vinh = 14;
+// let GiaKhanh = 15;
+// let Hai = 16;
 
-if (Vinh > 15) {
-  console.log("lớn hơn độ tuổi vào lớp 10");  // Tuấn Minh
-}
-else if (Vinh == 15) {
-  console.log("đạt chuẩn độ tuổi vào lớp 10"); // Thắng 
-}
-else {
-  console.log("Không đủ điều kiện vào lớp 10"); // Vinh, Bảo Khánh
-}
+// if (Hai > 15) {
+//   console.log("lớn hơn độ tuổi vào lớp 10");
+// }
+// else if (Hai == 15) { // so sánh bằng
+//   console.log("đạt chuẩn độ tuổi vào lớp 10");
+// }
+// else { // trường hợp còn lại ==> Code chạy vào đây
+//   console.log("Không đủ điều kiện vào lớp 10");
+// }
 
-/// => 
 
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// console.log("...");
+// // .....
+// console.log(1000);
+
+/// Vòng lặp while
+let i = 1;
+while (i < 3) {
+  console.log("lặp lần thứ " + i);
+  i = i + 1;// tăng giá trị i lên 1 đơn vị.
+}

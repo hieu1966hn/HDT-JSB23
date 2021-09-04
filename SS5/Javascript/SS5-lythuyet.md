@@ -55,3 +55,8 @@ Lưu ý:
 
     ==> Nếu <điều kiện>: đúng => thực hiện code trong if
     sai => bỏ qua code trong if
+
+- Vòng lặp trong JS: 3 vòng lặp cơ bản ==> cú pháp
+  - while(<điều kiện>){ => hay được gọi là điều kiện dừng
+    ... codingg;
+    }
