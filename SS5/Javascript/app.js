@@ -51,8 +51,18 @@
 // console.log(1000);
 
 /// Vòng lặp while: in ra từ 1 -> 1000
-let i = 1;
-while (i <= 1000) {
-  console.log("lặp lần thứ " + i);
-  i = i + 1;// tăng giá trị i lên 1 đơn vị. => hiện tại i = 2;
+// let i = 1;
+// while (i <= 1000) { // dừng tại 1001 <= 1000 ==> kết quả trả về là sai.
+//   console.log("lặp lần thứ " + i);
+//   i = i + 1;// tăng giá trị i lên 1 đơn vị. => hiện tại i = 2;
+// }
+
+
+// Vòng lặp do - while
+
+let dem = 1;
+do {
+  console.log("Lần lặp thứ " + dem);
+  dem = dem + 1;
 }
+while (dem <= 1000); // ! =

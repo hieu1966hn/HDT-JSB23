@@ -59,6 +59,19 @@ Lưu ý:
     sai => bỏ qua code trong if
 
 - Vòng lặp trong JS: 3 vòng lặp cơ bản ==> cú pháp
+
   - while(<điều kiện>){ => hay được gọi là điều kiện dừng
     ... codingg;
     }
+
+    ==> Kết luận while: Kiểm tra điều kiện (nếu đúng) => chạy code trong while và quay lại bước kiểm tra điều kiện
+
+  - do{
+    .. coding
+    }
+    while(<điều kiện>);
+    ===> kết luận do-while:
+    Bước 1: Cho người dùng chạy code trong do,
+    Bước 2: Kiểm tra điều kiện tại while
+    Bước 3: Điều kiện đúng => quay lại bước 1
+    Điều kiện sai ==> thoát khỏi vòng lặp
