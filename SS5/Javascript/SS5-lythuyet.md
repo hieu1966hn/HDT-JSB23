@@ -26,6 +26,7 @@ Lưu ý:
 
 - Toán tử trong JS
 
+  - "=": phép toán gán giá trị
   - "+": phép cộng
   - "-": phép trừ
   - "\*": phép nhân
@@ -38,6 +39,7 @@ Lưu ý:
   - "==": phép so sánh bằng (so sánh tương đối)
   - "===": phép so sánh bằng (so sánh tuyệt đối)
   - "! =": phép so sánh khác.
+
     ==> Tất các các phép toán trên đều trả về kết quả: đúng hoặc sai
 
 - Câu điều kiện: if - (else if) - else: Sử dụng để lọc giá trị, loại bỏ,...

@@ -50,9 +50,9 @@
 // // .....
 // console.log(1000);
 
-/// Vòng lặp while
+/// Vòng lặp while: in ra từ 1 -> 1000
 let i = 1;
-while (i < 3) {
+while (i <= 1000) {
   console.log("lặp lần thứ " + i);
-  i = i + 1;// tăng giá trị i lên 1 đơn vị.
+  i = i + 1;// tăng giá trị i lên 1 đơn vị. => hiện tại i = 2;
 }
