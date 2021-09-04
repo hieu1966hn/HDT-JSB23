@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container .header {
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.container .header div {
+    display: inline-block;
+    color: black;
+    padding: 0px 50px;
+}
+
+.container .header h2 {
+    text-align: center;
+}
+
+.container .header .cart img {
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+.container .body-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .body-content .mini-content {
+    width: 30%;
+}
+
+.body-content .content {
+    flex-grow: 1;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container .footer {
+    background-color: lightcyan;
+    padding: 50px;
+    text-align: end;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+input {
+  height: 25px;
+}
+.header div {
+  display: inline-block;
+  margin-left: 25px;
+}
+.header-box {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: peachpuff;
+}
+.gio-hang {
+  border: 1px solid yellow;
+  padding: 10px;
+  border-radius: 15px;
+}
+.sanpham img {
+  width: 310px;
+  height: 290px;
+}
+.sanpham {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+}
+.sanpham div {
+  padding: 20px;
+}
+.sanpham div :nth-child(1) {
+  padding: 10px;
+  color: rgb(240, 116, 15);
+}
+.sanpham div :nth-child(2) {
+  color: #fff;
+  background-color: rgb(228, 148, 1);
+  padding: 10px;
+  display: inline;
+  border-radius: 15px;
+}
+.sanpham p {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.content2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 10%;
+}
+.footer {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  background-color: peachpuff;
+}

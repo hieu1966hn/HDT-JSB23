@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    display: flex;
+}
+
+.header-box .header {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header img {
+    width: 60%;
+}
+
+.menu {
+    display: flex;
+}

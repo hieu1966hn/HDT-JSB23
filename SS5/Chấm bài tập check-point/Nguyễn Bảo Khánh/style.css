@@ -1,0 +1,74 @@
+.container{
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+.container .header div{
+    display: inline-block;
+    
+}
+
+.container .header .gio-hang{
+    margin-left: 20%;
+    border: 3px solid black;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+.content{
+    border: 1px solid black;
+    width: 100%;
+    height: 680px;
+    margin-top: 50px;
+    display: inline-block;
+    
+}
+.container .content .mini-content-left{
+    border: 3px solid black;
+width: 300px;
+height: 300px;
+margin: 20px;
+}
+.container .content .mini-content-middle{
+    border: 3px solid black;
+width: 300px;
+height: 300px;
+margin-left: 800px;
+}
+.container .content .mini-content-right1{
+    border: 3px solid black;
+width: 300px;
+height: 300px;
+margin-left: 1550px;
+}
+.container .content .mini-content-right2{
+    border: 3px solid black;
+width: 300px;
+height: 300px;
+margin-left: 748px;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.container .mini-content-left div h1{
+    font-size: 45px;
+    margin-left: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
