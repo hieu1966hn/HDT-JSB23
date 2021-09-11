@@ -33,8 +33,20 @@ let n = Number(prompt("Nhập vào số nguyên n!")); // => ép kiểu thành c
 let dem = 1;
 
 // in ra số chẵn
+console.log("in ra số chẵn");
 while (dem <= n) {
   if (dem % 2 == 0) { // dể kiểm tra là số chẵn, ta sử dụng phép chia lấy dư: Dư 0 => số  chẵn
+    console.log(dem + " ");
+  }
+
+  dem = dem + 1; // gan lai gia tri cho bien  dem: || là: dem++;
+}
+
+// in ra so le
+console.log(" In ra số lẻ");
+dem = 1;
+while (dem <= n) {
+  if (dem % 2 != 0) { // dể kiểm tra là số lẻ, ta sử dụng phép chia lấy dư: Dư != 0 => số  lẻ
     console.log(dem + " ");
   }
 
