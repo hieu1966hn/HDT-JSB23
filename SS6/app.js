@@ -34,3 +34,4 @@ arr.splice(1, 2);// PHần tử ở vị trí thứ 2 => xóa 1 phần tử kể
 console.log("mảng arr sau khi  Delete phần tử 2 là", arr);
 
 
+``
