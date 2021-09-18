@@ -41,6 +41,7 @@
 
     - Đối với hàm có giá trị trả về thì phải dùng từ khóa return
     - Đối với hàm không có giá trị trả về thì không dùng từ khóa return
+    - Sau khi chạy câu lệnh return: Lập tức thoát khỏi hàm.
 
     VD:
     function getSum(a, b) {

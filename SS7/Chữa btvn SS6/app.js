@@ -19,39 +19,45 @@ let fruits = [
 ]
 
 
-
-for (let i = 0; i < fruits.length; i = i + 1) {
-  console.log(`Tôi có ${fruits[i][1]} quả ${fruits[i][0]}`);
-}
-
-for (let key in fruits) {
-  // console.log(key);
-  console.log(`Tôi có ${fruits[key][1]} quả ${fruits[key][0]}`);
-}
-
-for (let key of fruits) {
-  // console.log(key);
-  console.log(`Tôi có ${key[1]} quả ${key[0]}`);
+function logFruits(fruits) {
+  for (let i = 0; i < fruits.length; i = i + 1) {
+    console.log(`Tôi có ${fruits[i][1]} quả ${fruits[i][0]}`);
+  }
 }
 
 
-// Chữa bài 3
-let myDog = {
-  "name": "ngáo",
-  legs: 4,
-  friends: ["everything!"]
-}
+logFruits(fruits);
 
 
-// Đổi gia trị thuộc tính name
-myDog.name = "Husky"
-console.log(myDog.name);
 
-// thêm mới thuộc tính cho đối tượng
-myDog.color = "brown"
-console.log(myDog);
+// for (let key in fruits) {
+//   // console.log(key);
+//   console.log(`Tôi có ${fruits[key][1]} quả ${fruits[key][0]}`);
+// }
 
-// xóa thuộc tính trong đối tượng
+// for (let key of fruits) {
+//   // console.log(key);
+//   console.log(`Tôi có ${key[1]} quả ${key[0]}`);
+// }
 
-delete myDog.friends;
-console.log(myDog);
+
+// // Chữa bài 3
+// let myDog = {
+//   "name": "ngáo",
+//   legs: 4,
+//   friends: ["everything!"]
+// }
+
+
+// // Đổi gia trị thuộc tính name
+// myDog.name = "Husky"
+// console.log(myDog.name);
+
+// // thêm mới thuộc tính cho đối tượng
+// myDog.color = "brown"
+// console.log(myDog);
+
+// // xóa thuộc tính trong đối tượng
+
+// delete myDog.friends;
+// console.log(myDog);
