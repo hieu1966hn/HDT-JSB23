@@ -47,40 +47,52 @@ function sayHello() {
  */
 
 let menu = ["thịt chó", "lẩu cá lăng", "đậu lướt ván"];
-let input;
+
+menuCRUD(menu);
 
 
-do {
 
-  input = prompt("Mời người dùng nhập vào: C,R,U,D");
-  if (input === 'c') {
-    menu.push(
-      prompt("Mời người dùng nhập món ăn mới")
-    )
+
+
+
+
+
+function menuCRUD(menu) {
+
+  let input;
+
+  do {
+
+    input = prompt("Mời người dùng nhập vào: C,R,U,D");
+    if (input === 'c') {
+      menu.push(
+        prompt("Mời người dùng nhập món ăn mới")
+      )
+    }
+
+    else if (input === 'r') {
+      alert(`Menu nhà hàng là ${menu}`);
+      document.write(`Menu nhà hàng là ${menu}`)
+    }
+
+    else if (input === "u") {
+      let tenMonMuonUpdate = prompt("Mời người dùng nhập vào món ăn muốn update");
+      let viTriUpdate = menu.indexOf(tenMonMuonUpdate);
+      menu[viTriUpdate] = prompt("Mời người dùng nhập vào món ăn mới");
+    }
+    else if (input === "d") {
+      let tenMonMuonDelete = prompt("Mời người dùng nhập vào món ăn muốn Delete");
+      let viTriDelete = menu.indexOf(tenMonMuonDelete);
+      // xóa 1 phần tử trong mảng
+      menu.splice(viTriDelete, 1);
+    }
+
+    else {
+      alert("Không tồn tại yêu cầu, chấm dứt vòng lặp");
+    }
+
   }
-
-  else if (input === 'r') {
-    alert(`Menu nhà hàng là ${menu}`);
-    document.write(`Menu nhà hàng là ${menu}`)
-  }
-
-  else if (input === "u") {
-    let tenMonMuonUpdate = prompt("Mời người dùng nhập vào món ăn muốn update");
-    let viTriUpdate = menu.indexOf(tenMonMuonUpdate);
-    menu[viTriUpdate] = prompt("Mời người dùng nhập vào món ăn mới");
-  }
-  else if (input === "d") {
-    let tenMonMuonDelete = prompt("Mời người dùng nhập vào món ăn muốn Delete");
-    let viTriDelete = menu.indexOf(tenMonMuonDelete);
-    // xóa 1 phần tử trong mảng
-    menu.splice(viTriDelete, 1);
-  }
-
-  else {
-    alert("Không tồn tại yêu cầu, chấm dứt vòng lặp");
-  }
+  while (input === "c" || input === "r" || input === "u" || input === "d");
 
 }
-while (input === "c" || input === "r" || input === "u" || input === "d");
-
 
