@@ -63,7 +63,7 @@ function menuCRUD(menu) {
 
   do {
 
-    input = prompt("Mời người dùng nhập vào: C,R,U,D");
+    input = prompt("Mời người dùng nhập vào: C,R,U,D").toLowerCase().trim();
     if (input === 'c') {
       menu.push(
         prompt("Mời người dùng nhập món ăn mới")

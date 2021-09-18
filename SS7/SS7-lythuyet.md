@@ -51,3 +51,8 @@
   - Toán tử:
     - ||: toán tử hoặc: chỉ cần 1 trường hợp đúng là được
     - && : toán tử và: Cần 2 trương cùng đúng, hoặc cùng sai
+
+  Lưu ý:
+
+  - string.toLowerCase(): toàn bộ chữ hoa -> chữ thường
+  - string.trim(): loại bỏ toàn bộ khoảng cách trước và sau chuỗi
