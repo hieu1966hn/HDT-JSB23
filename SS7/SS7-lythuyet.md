@@ -47,3 +47,7 @@
     function getSum(a, b) {
     return a + b;
     }
+
+  - Toán tử:
+    - ||: toán tử hoặc: chỉ cần 1 trường hợp đúng là được
+    - && : toán tử và: Cần 2 trương cùng đúng, hoặc cùng sai
