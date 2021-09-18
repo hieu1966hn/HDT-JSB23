@@ -34,3 +34,24 @@ for (let key of fruits) {
   console.log(`Tôi có ${key[1]} quả ${key[0]}`);
 }
 
+
+// Chữa bài 3
+let myDog = {
+  "name": "ngáo",
+  legs: 4,
+  friends: ["everything!"]
+}
+
+
+// Đổi gia trị thuộc tính name
+myDog.name = "Husky"
+console.log(myDog.name);
+
+// thêm mới thuộc tính cho đối tượng
+myDog.color = "brown"
+console.log(myDog);
+
+// xóa thuộc tính trong đối tượng
+
+delete myDog.friends;
+console.log(myDog);
