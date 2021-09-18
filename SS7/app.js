@@ -56,7 +56,7 @@ menuCRUD(menu);
 
 
 
-
+// tạo ra 1 chuong trình con dùng để C,R,U,D với mảng
 function menuCRUD(menu) {
 
   let input;
