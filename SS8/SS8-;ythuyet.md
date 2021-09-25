@@ -1,0 +1,3 @@
+- Ôn tập lại về đối tượng: Object
+  - Thuộc tính
+  - Phương thức
