@@ -17,6 +17,7 @@
 - Phương thức thao tác với DOM : (Giúp mình truy cập và lấy dữ liệu trong document web)
 
   - getElementById(id): THam chiếu đến 1 thẻ duy nhất có thuộc tính id giống với id cần tìm
+  - getElementByTagName(tagname): Tham chiếu tới tất cả các thẻ có thuộc tính tagName giống với tên thẻ cần tìm
 
 - Thuộc tính Thao tác với DOM: thuộc tính của thẻ để thao tác với DOM
   - onclick: Bắt sự kiện click chuột vào thẻ

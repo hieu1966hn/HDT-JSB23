@@ -47,15 +47,19 @@
 
 // Thao tác với DOM
 // Khai báo 1 biến: biến này sẽ chứa thẻ lấy được từ bên HTML
-let id = "heading"
-let h1 = document.getElementById(id);
+// let id = "heading"
+// let h1 = document.getElementById(id);
 
-console.log(h1);
+// console.log(h1);
 
 
 
-// Khai báo hàm đổi màu đỏ
-function changeRedColor() {
-  h1.style.color = "red";
-  h1.innerText = "Đã sử dụng DOM để thay đổi ND thẻ H1"
-}
+// // Khai báo hàm đổi màu đỏ
+// function changeRedColor() {
+//   h1.style.color = "red";
+//   h1.innerText = "Đã sử dụng DOM để thay đổi ND thẻ H1"
+// }
+
+///// getElementByTagName()
+let arrH1 = document.getElementsByTagName('h1'); // Khai báo 1 biến để chứa toàn bộ thẻ h1 bên trong HTML
+console.log(arrH1);
