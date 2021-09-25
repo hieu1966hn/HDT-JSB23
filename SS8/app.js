@@ -77,9 +77,25 @@
 
 //addEventListener
 
-let h1 = document.querySelector("#heading");
+// let h1 = document.querySelector("#heading");
 
-/// bắt sự kiện dành cho thẻ h1 , ta sử dụng phương thức addEventListener
-h1.addEventListener("click", function () {
-  h1.style.color = "blue"
+// /// bắt sự kiện dành cho thẻ h1 , ta sử dụng phương thức addEventListener
+// h1.addEventListener("click", function () {
+//   h1.style.color = "blue"
+// })
+
+
+let form = document.getElementById("formSignUp");
+form.addEventListener("submit", function (event) {
+  // Sự kiện reload lại trang khi submit là sự kiện default của broswer
+  event.preventDefault();// Phương thức ngăn trình duyệt tự động reload
+  // console.log("đã submit form thành công");
+
+  // tạo 1 đối tượng user với các từ khóa và giá trị tương ứng
+  const user = {
+    firstName: form.firstName.value,
+    lastName: form.lastName.value
+  }
+
+  console.log(user);
 })
