@@ -18,6 +18,7 @@
 
   - getElementById(id): THam chiếu đến 1 thẻ duy nhất có thuộc tính id giống với id cần tìm
   - getElementByTagName(tagname): Tham chiếu tới tất cả các thẻ có thuộc tính tagName giống với tên thẻ cần tìm
+  - querySelector(id or class): Tham chiếu tới thẻ nào có thuộc tính id or clas giống với tên id or class mình cần tìm;
 
 - Thuộc tính Thao tác với DOM: thuộc tính của thẻ để thao tác với DOM
   - onclick: Bắt sự kiện click chuột vào thẻ

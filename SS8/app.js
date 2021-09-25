@@ -61,5 +61,15 @@
 // }
 
 ///// getElementByTagName()
-let arrH1 = document.getElementsByTagName('h1'); // Khai báo 1 biến để chứa toàn bộ thẻ h1 bên trong HTML
-console.log(arrH1);
+// let arrH1 = document.getElementsByTagName('h1'); // Khai báo 1 biến để chứa toàn bộ thẻ h1 bên trong HTML
+// console.log(arrH1);
+
+//// querySelector()
+
+// lưu ý; với class ta thêm dấu ".", còn với id ta thêm dấu "#" vào trước tên chuỗi
+let query = document.querySelector('.item2');
+console.log(query); // in ra để xem
+
+function changeColorQuery() {
+  query.style.color = "blue"
+}
