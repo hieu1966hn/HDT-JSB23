@@ -94,7 +94,7 @@ form.addEventListener("submit", function (event) {
   // tạo 1 đối tượng user với các từ khóa và giá trị tương ứng
   const user = {
     firstName: form.firstName.value,
-    lastName: form.lastName.value
+    lastName: form.lastName.value,
   }
 
   console.log(user);
