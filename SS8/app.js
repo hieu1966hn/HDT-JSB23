@@ -67,9 +67,19 @@
 //// querySelector()
 
 // lưu ý; với class ta thêm dấu ".", còn với id ta thêm dấu "#" vào trước tên chuỗi
-let query = document.querySelector('.item2');
-console.log(query); // in ra để xem
+// let query = document.querySelector('.item2');
+// console.log(query); // in ra để xem
 
-function changeColorQuery() {
-  query.style.color = "blue"
-}
+// function changeColorQuery() {
+//   query.style.color = "blue"
+// }
+
+
+//addEventListener
+
+let h1 = document.querySelector("#heading");
+
+/// bắt sự kiện dành cho thẻ h1 , ta sử dụng phương thức addEventListener
+h1.addEventListener("click", function () {
+  h1.style.color = "blue"
+})

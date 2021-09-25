@@ -21,4 +21,8 @@
   - querySelector(id or class): Tham chiếu tới thẻ nào có thuộc tính id or clas giống với tên id or class mình cần tìm;
 
 - Thuộc tính Thao tác với DOM: thuộc tính của thẻ để thao tác với DOM
+
   - onclick: Bắt sự kiện click chuột vào thẻ
+
+- THao tác bắt sự kiện trong Javascript:
+  - addEventListener("tên sự kiện", function(){})
