@@ -99,3 +99,19 @@ form.addEventListener("submit", function (event) {
 
   console.log(user);
 })
+
+
+const signUpForm = document.querySelector(".sign-up-form");
+const signInForm = document.querySelector(".sign-in-form");
+
+// định nghĩa hàm toLogin();
+function toLogin() {
+  signUpForm.classList.add('displayNone');
+  signInForm.classList.remove('displayNone');
+}
+
+// hàm quay về trang đăng ký
+function toRegister() {
+  signInForm.classList.add('displayNone');
+  signUpForm.classList.remove('displayNone');
+}
