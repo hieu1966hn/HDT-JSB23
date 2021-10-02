@@ -1,0 +1,13 @@
+table, th, td {
+  border: 1px solid brown;
+  border-collapse: collapse;
+  width: 900px;
+  height: 30px;
+  text-align: center;
+}
+
+#first {
+  /* margin-top: 30px; */
+  margin: 50px auto;
+  /*  trên/dưới trái/phải */
+}
