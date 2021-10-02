@@ -95,6 +95,9 @@ form.addEventListener("submit", function (event) {
   const user = {
     firstName: form.firstName.value,
     lastName: form.lastName.value,
+    email: form.email.value,
+    password: form.password.value,
+    confirmPassword: form.confirmPassword.value
   }
 
   console.log(user);
@@ -115,3 +118,18 @@ function toRegister() {
   signInForm.classList.add('displayNone');
   signUpForm.classList.remove('displayNone');
 }
+
+
+
+//  bắt sự kiện submit đăng nhập
+const formSignIn = document.getElementById('formSignIn');
+formSignIn.addEventListener("submit", function (event) {
+  event.preventDefault();
+  // ngăn trình duyệt tự động reload
+  const dataLogin = {
+    email: formSignIn.email.value,
+    password: formSignIn.password.value
+  }
+
+  console.log(dataLogin);
+});
